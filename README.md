@@ -1,13 +1,14 @@
-# Java Template
+# Java Problems
 
 ## Learning Objectives
-- Example learning objective
+- Practice problem-solving ability using Java
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
 - Open the root directory of the project in IntelliJ
-- Implement the requirements listed in comments in the `./src/main/java/com.booleanuk/core/Exercise.java` file
-- When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
+- The `src/main/java/com/booleanuk` package contains three packages: `easy`, `medium` and `hard`. Each of these contain a problem for you to solve
+- Try to break the problem down into plain English before writing any code to maximise your skill gains
+- Each problem has a test in the `src/test/java/com/booleanuk` package
 
 ![](./assets/run-a-test.PNG)
 
