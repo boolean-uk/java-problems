@@ -8,6 +8,7 @@ package com.booleanuk.easy;
  */
 public class DigitCount {
     public int solution(int input) {
-        return 0;
+        String s = String.valueOf(input);
+        return s.length();
     }
 }

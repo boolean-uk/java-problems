@@ -6,6 +6,12 @@ package com.booleanuk.easy;
  */
 public class Repeat {
     public String solution(String input) {
-        return "";
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            result.append(c);
+            result.append(c);
+        }
+        return result.toString();
     }
 }
