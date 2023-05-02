@@ -9,6 +9,13 @@ package com.booleanuk.hard;
  */
 public class Disarium {
     public boolean solution(int number) {
-        return false;
+        String numberString = String.valueOf(number);
+        int sum = 0;
+        for (int i = 0; i < numberString.length(); i++) {
+            sum +=(int) Math.pow(Character.getNumericValue(numberString.charAt(i)),i+1);
+        }
+        return sum==number;
     }
+
+
 }
