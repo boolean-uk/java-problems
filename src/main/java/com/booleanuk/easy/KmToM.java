@@ -7,6 +7,7 @@ package com.booleanuk.easy;
  */
 public class KmToM {
     public int solution(float kilometers) {
-        return 0;
+        int miles = Math.round(kilometers/1.6f);
+        return miles;
     }
 }
