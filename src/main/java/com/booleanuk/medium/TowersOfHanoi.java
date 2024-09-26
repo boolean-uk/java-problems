@@ -1,5 +1,7 @@
 package com.booleanuk.medium;
 
+import java.util.HashMap;
+
 /**
  * There are three towers: the Towers of Hanoi. View the link below for a visual.
  * https://www.mathsisfun.com/games/towerofhanoi.html
@@ -12,6 +14,7 @@ package com.booleanuk.medium;
  */
 public class TowersOfHanoi {
     public int solution(int discs) {
-        return 0;
+
+        return ((int) Math.pow(2, discs) - 1);
     }
 }

@@ -7,6 +7,10 @@ package com.booleanuk.easy;
  */
 public class Multiples {
     public int[] solution(int number, int length) {
-        return new int[0];
+        int[] result = new int[length];
+        for (int i = 0; i < length; i++) {
+            result[i] = number * (i + 1);
+        }
+        return result;
     }
 }

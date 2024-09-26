@@ -7,6 +7,10 @@ package com.booleanuk.easy;
  */
 public class Factorial {
     public int solution(int input) {
-        return 0;
+        int multi=1;
+        for (int i = 2; i <= input; i++) {
+            multi*=i;
+        }
+        return multi;
     }
 }
